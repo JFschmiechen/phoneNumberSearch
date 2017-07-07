@@ -3,7 +3,6 @@ const cheerio = require('cheerio');
 const google = require('google');
 const nodemailer = require('nodemailer');
 const MailListener = require('mail-listener2');
-const http = require('http');
 const dateTime = require('node-datetime');
 
 var dt = dateTime.create();
