@@ -1,0 +1,40 @@
+
+Requirements:
+
+  - Google voice account
+  
+  - Gmail account
+  
+  - Phone with service
+  
+  - Computer to host program while you are away
+  
+  - Foreverjs (https://github.com/foreverjs/forever)
+  
+  Getting Started:
+  
+    Download this repository and dependencies on the computer you wish to act as a server. Then fill in the labeled sections in the 
+    program with the corresponding information. E.g. 'GMAIL' would be your gmail email. Afterwards use Foreverjs to allow the program
+    to restart once a request has been made and finished. Now you always have access to phone numbers as long as you have a cellular 
+    signal.
+    
+
+
+**| TODO |**
+
+
+| HIGH PRIORITY |
+ 
+  1. Phone number validation
+  
+  2. Find alternative to setTimeout
+  
+  3. Better html parsing
+  
+  4. Better IMAP search filter
+      - On first start it retrieves all mail items
+  
+| LOW PRIORITY |
+
+  1. Added functionality such as returning the address as well as phone number
+  
